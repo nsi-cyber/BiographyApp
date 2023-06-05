@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AboutMeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="99dp">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/profile"
+                tools:src="@drawable/profile" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Merhaba ben Enes. 21 yaşındayım ve 3 yıldır mobil programlama konusunda meraklıyım. Üniversite öğrenimime Akdeniz Üniversitesi Bilgisayar Mühendisliği ile başladım. 3. Sınıfın başında yatay geçiş ile Eskişehir Osmangazi Üniversitesi Bilgisayar Mühendisliğine geçtim. 2021 yılında Android alanında ilk stajımı yaptım. Yaklaşık 1 ay sürdü. Daha sonrasında şu andan geriye 10 aylık bir stajım mevcut ve hala devam ediyorum."
+            android:textColor="#0B0B0B" />
+
+    </LinearLayout>
+
+</FrameLayout>
